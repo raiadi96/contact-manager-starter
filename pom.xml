@@ -7,7 +7,19 @@
     <groupId>org.example</groupId>
     <artifactId>contact-manager-starter</artifactId>
     <version>1.0-SNAPSHOT</version>
+        <dependencies>
+    <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-api</artifactId>
+    <version>5.8.2</version>
+    <scope>test</scope>
+</dependency>
+    </dependencies>
     <build>
+    <!-- https://mvnrepository.com/artifact/org.junit.jupiter/junit-jupiter-api -->
+
+
+    
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
