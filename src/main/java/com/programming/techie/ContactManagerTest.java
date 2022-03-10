@@ -7,6 +7,8 @@ import org.junit.jupiter.api.Test;
 
 class ContactManagerTest {
 
+	
+	
 	@Test
 	void shouldCreateContact() {
 		ContactManager contactManager = new ContactManager();
@@ -21,7 +23,9 @@ class ContactManagerTest {
 	@Test
 	void shouldValidateFirstName() {
 		ContactManager contactManager = new ContactManager();
-		Assertions.assertThrows(RuntimeException.class,()->{ contactManager.addContact(null, "suresh", "0123456789");});
+		Assertions.assertThrows(RuntimeException.class,()->
+			contactManager.addContact(null, "suresh", "0123456789")
+			);
 	}
 	
 	@Test
